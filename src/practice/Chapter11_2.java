@@ -1,6 +1,6 @@
 package practice;
 
-public class Chaptet11_2 {
+public class Chapter11_2 {
 	public static void main(String[] args) {
 		int i = 15;
 		
