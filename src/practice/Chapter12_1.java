@@ -1,6 +1,6 @@
 package practice;
 
-class Test{
+class Test {
 	String instanceArg = "instance";
 	static String staticArg = "static";
 	
