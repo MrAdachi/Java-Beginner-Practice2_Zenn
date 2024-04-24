@@ -1,6 +1,6 @@
 package practice;
 
-class Test {
+class Test12_1 {
 	String instanceArg = "instance";
 	static String staticArg = "static";
 	
@@ -20,14 +20,14 @@ public class Chapter12_1 {
 		 *                 直接クラス名を先頭に指定する形でも参照可能 */
 		// staticメンバの呼び出し
 		// static変数
-		System.out.println(Test.staticArg);
+		System.out.println(Test12_1.staticArg);
 		// staticメソッド
-		Test.staticMethod();
+		Test12_1.staticMethod();
 		
 		System.out.println("-----------------------------------------");
 		
 		// インスタンスの生成
-		Test t = new Test();
+		Test12_1 t = new Test12_1();
 		
 		// インスタンスメンバの呼び出し
 		// インスタンス変数
@@ -47,8 +47,8 @@ public class Chapter12_1 {
 		
 		// staticメンバの呼び出し
 		// static変数
-		System.out.println(Test.staticArg);
+		System.out.println(Test12_1.staticArg);
 		// staticメソッド
-		Test.staticMethod();
+		Test12_1.staticMethod();
 	}
 }
