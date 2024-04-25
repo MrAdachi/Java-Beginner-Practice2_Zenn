@@ -1,7 +1,7 @@
 package practice;
 
 // 設計図クラス
-class Bmi {
+class Bmi12_6 {
 	// インスタンス変数（メンバ変数）
 	String name;
 	
@@ -17,14 +17,14 @@ class Bmi {
 public class Chapter12_6 {
 	// main()メソッド
 	public static void main(String[] args) {
-		Bmi human1 = new Bmi(); // インスタンス化
+		Bmi12_6 human1 = new Bmi12_6(); // インスタンス化
 		
 		human1.name = "tanaka";
 		
 		System.out.println(human1.name); // インスタンス変数の呼び出し
 		System.out.println(human1.calcBmi(170, 70)); // 通常メソッドの呼び出し
 		
-		Bmi human2 = new Bmi(); // インスタンスの追加
+		Bmi12_6 human2 = new Bmi12_6(); // インスタンスの追加
 		
 		human2.name = "sato";
 		
