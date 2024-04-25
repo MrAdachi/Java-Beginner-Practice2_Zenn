@@ -17,7 +17,7 @@ class Test13_3 {
 	}
 	
 	static void staticmethodB() {
-		// ローカル変数のインスタンス生成が無いとエラー
+		// ローカル変数のインスタンス生成が無いとコンパイルエラー
 		Test13_3 t2 = new Test13_3();
 		System.out.println(t2.instanceVal);
 	}

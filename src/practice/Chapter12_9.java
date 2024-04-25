@@ -9,7 +9,7 @@ class Test12_9 {
 		}
 	}
 	
-	// 第二引数を"String [] ～～"で書くとエラー発生
+	// 第二引数を"String [] ～～"で書くとコンパイルエラー
 	void method2(int b, String... s1_array) {
 		
         System.out.println(b);

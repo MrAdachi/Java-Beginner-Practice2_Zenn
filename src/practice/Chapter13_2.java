@@ -17,10 +17,10 @@ public class Chapter13_2 {
 		// インスタンスメンバへのアクセス
 		Chapter13_2 t = new Chapter13_2();
 		System.out.println(t.instanceVal);
-		// System.out.println(instanceVal); エラー発生（staticメンバ → instanceメンバへの直接アクセス不可）
+		// System.out.println(instanceVal); コンパイルエラー（staticメンバ → instanceメンバへの直接アクセス不可）
 		
 		t.instanceMethod();
-		// instanceMethod();  エラー発生（staticメンバ → instanceメンバへの直接アクセス不可）
+		// instanceMethod();  コンパイルエラー（staticメンバ → instanceメンバへの直接アクセス不可）
 		
 		// staticメンバへのアクセス
 		System.out.println(staticVal);

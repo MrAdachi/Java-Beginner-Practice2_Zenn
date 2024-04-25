@@ -17,7 +17,7 @@ public class Chapter14_1 {
 		Test14_1 t = new Test14_1(100);
 		
 		/* System.out.println(t.num);
-		   エラー（privateのアクセス修飾子は同一クラスでのみ使用可能であるため）
+		   コンパイルエラー（privateのアクセス修飾子は同一クラスでのみ使用可能であるため）
 		 */
 		System.out.println(t.getnum());
 	}

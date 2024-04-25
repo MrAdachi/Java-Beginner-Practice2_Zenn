@@ -17,11 +17,11 @@ public class Chapter10_7 {
 			case f_i1: // 定数なので正常動作
 				System.out.println("iは10です。");
 				break;
-			// case i: // 変数を指定しているのでエラー発生
+			// case i: // 変数を指定しているのでコンパイルエラー発生
 			case f_i2: // 定数なので正常動作
 				System.out.println("iは20です。");
 				break;
-			// case f_s[0]: // 定数の配列を指定しているのでエラー発生
+			// case f_s[0]: // 定数の配列を指定しているのでコンパイルエラー発生
 			case f_i3: 
 				System.out.println("iは30です。");
 				break;

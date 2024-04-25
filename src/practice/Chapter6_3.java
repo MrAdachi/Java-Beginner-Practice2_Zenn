@@ -7,7 +7,7 @@ public class Chapter6_3 {
 		
 		System.out.println("num1は定数で、値は" + num1 + "です。");
 		
-		//	定数の再代入（Error）
+		//	定数の再代入（コンパイルエラー）
 		//	num1 = 15000;
 	}
 }

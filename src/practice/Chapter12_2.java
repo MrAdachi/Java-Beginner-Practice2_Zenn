@@ -14,7 +14,7 @@ class Test12_2{
 	 
 	 /* static void method3() {
 		 System.out.println(instanceVal);
-	 } staticメソッドから同クラスのインスタンス変数にアクセスしているのでエラー発生
+	 } staticメソッドから同クラスのインスタンス変数にアクセスしているのでコンパイルエラー
 	 */
 	 
 	 static void method4() {

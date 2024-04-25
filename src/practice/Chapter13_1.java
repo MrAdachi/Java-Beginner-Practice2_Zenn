@@ -19,7 +19,7 @@ class Test13_1 {
 	/* static void staticmethodB() {
 		System.out.println(instanceVal);
 	}
-	staticメンバからインスタンスメンバへのアクセス → エラー
+	staticメンバからインスタンスメンバへのアクセス → コンパイルエラー
 	*/
 	
 	// Test t = new Test(); ここに定義したらtもインスタンスメンバ
