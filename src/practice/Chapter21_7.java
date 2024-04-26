@@ -12,7 +12,7 @@ class Super21_7 {
 }
 
 // サブクラス
-class Sub21_7 {
+class Sub21_7 extends Super21_7 {
 	public Sub21_7() {
 		System.out.println("Sub21_7");
 	}
