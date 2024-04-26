@@ -8,8 +8,11 @@ abstract class Super21_9 {
 	}
 }
 
-// サブクラス
-class Sub21_9 extends Super21_9 {
+// サブクラス（抽象クラス）
+abstract class Sub21_9A extends Super21_9 {}
+
+// サブクラス（具象クラス）
+class Sub21_9B extends Sub21_9A {
 	@Override
 	void methodA() {
 		System.out.println("実装");
@@ -30,7 +33,7 @@ class Sub21_9 extends Super21_9 {
 // 実行クラス
 public class Chapter21_9 {
 	public static void main(String[] args) {
-		Sub21_9 s = new Sub21_9();
+		Sub21_9B s = new Sub21_9B();
 		s.methodA();
 		s.methodB();
 		
