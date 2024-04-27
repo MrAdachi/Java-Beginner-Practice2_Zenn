@@ -25,7 +25,7 @@ public class Chapter23_1 {
 		System.out.println();
 		// 拡張for文も使用可能
 		for(Integer i: list) {
-			System.out.println(i);
+			System.out.print(i);
 		}
 	}
 }
