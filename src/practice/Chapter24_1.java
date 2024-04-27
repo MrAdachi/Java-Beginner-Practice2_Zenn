@@ -11,6 +11,8 @@ public class Chapter24_1 {
 				System.out.println((":" + (i + 1) + "回目のループ"));
 			} catch(ArrayIndexOutOfBoundsException e) {
 				System.out.println("エラー：配列のindexを超えたものを指定しています。");
+			} finally {
+				System.out.println("finallyの実行");
 			}
 		}
 		System.out.println("終了");
