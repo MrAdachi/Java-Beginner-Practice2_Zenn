@@ -2,7 +2,7 @@ package practice;
 
 interface Test22_4A {}
 class Test22_4B {}
-class Test22_4C extends Test22_4B {}
+class Test22_4C extends Test22_4B implements Test22_4A {}
 class Test22_4D {}
 abstract class Test22_4E {}
 
