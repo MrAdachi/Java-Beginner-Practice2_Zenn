@@ -26,7 +26,7 @@ class Test13_4 {
 }
 
 
-public class Chapter13_4 {
+public class Chapter13_4_important {
 	public static void main(String[] args) {
 		
 		int D = 10;
