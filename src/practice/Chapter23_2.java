@@ -2,6 +2,7 @@ package practice;
 
 import java.util.HashSet;
 
+// 実行クラス
 public class Chapter23_2 {
 	public static void main(String[] args) {
 		String[] array = {"A", "B", "C"}; //配列

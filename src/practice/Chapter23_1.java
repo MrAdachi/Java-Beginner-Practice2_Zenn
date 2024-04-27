@@ -2,6 +2,7 @@ package practice;
 
 import java.util.ArrayList;
 
+// 実行クラス
 public class Chapter23_1 {
 	public static void main(String[] args) {
 		// Listの宣言・初期化
