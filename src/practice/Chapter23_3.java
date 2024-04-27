@@ -1,5 +1,6 @@
 package practice;
 
+// import java.util.*;から展開される
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
